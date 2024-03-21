@@ -39,7 +39,7 @@ function BasicExample() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <NavLink to={"/button-trigger"}>Button</NavLink>
+            <NavLink style={{paddingRight: "1vw"}} to={"/button-trigger"}>Button</NavLink>
             <NavLink to={"/form-trigger"}>Form</NavLink>
           </Nav>
         </Navbar.Collapse>
