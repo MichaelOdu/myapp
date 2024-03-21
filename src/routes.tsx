@@ -16,9 +16,10 @@ const RouteComponent = () => {
                         <Outlet />
                     </div>
                 }>
-                <Route path="/" element={<Navigate to="/trigger-1" replace={true} />} />
-                <Route path="/trigger-1" element={<ButtonTrigger/>} />
+                <Route index element={<ButtonTrigger />} />
+                <Route path="/trigger-1" element={<ButtonTrigger />} />
                 <Route path="/trigger-2" element={<Form />} />
+
 
 
             </Route>
