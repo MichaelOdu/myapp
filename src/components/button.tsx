@@ -1,11 +1,12 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 const Component = () => {
 
     return (
-        <div>
-            Hello World! Button
-        </div>
+        <Container fluid>
+            Hello World Form
+        </Container>
     )
 }
 
