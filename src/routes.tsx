@@ -17,8 +17,8 @@ const RouteComponent = () => {
                     </div>
                 }>
                 <Route index element={<ButtonTrigger />} />
-                <Route path="/trigger-3" element={<ButtonTrigger />} />
-                <Route path="/trigger-4" element={<Form />} />
+                <Route path="/button-trigger" element={<ButtonTrigger />} />
+                <Route path="/form-trigger" element={<Form />} />
 
 
 

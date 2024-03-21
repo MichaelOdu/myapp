@@ -2,6 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { NavLink } from 'react-router-dom';
 
 // function BasicExample() {
 //     return (
@@ -29,22 +30,22 @@ import Navbar from 'react-bootstrap/Navbar';
 
 
 function BasicExample() {
-    return (
-      <Navbar expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
-        <Container>
-          <Navbar.Brand href="#home">
-            FWDthink
-            </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="/trigger-3">Button</Nav.Link>
-              <Nav.Link href="/trigger-4">Form</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-    );
-  }
+  return (
+    <Navbar expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
+      <Container>
+        <Navbar.Brand href="#home">
+          FWDthink
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <NavLink to={"/button-trigger"}>Button</NavLink>
+            <NavLink to={"/form-trigger"}>Form</NavLink>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+}
 
 export default BasicExample;
