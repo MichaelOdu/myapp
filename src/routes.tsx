@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, Outlet, Navigate } from "react-router-dom";
+import { Routes, Route, Outlet } from "react-router-dom";
 import Form from "./components/form";
 import ButtonTrigger from "./components/button";
 import Header from "./components/header"
@@ -17,8 +17,8 @@ const RouteComponent = () => {
                     </div>
                 }>
                 <Route index element={<ButtonTrigger />} />
-                <Route path="/trigger-1" element={<ButtonTrigger />} />
-                <Route path="/trigger-2" element={<Form />} />
+                <Route path="/trigger-3" element={<ButtonTrigger />} />
+                <Route path="/trigger-4" element={<Form />} />
 
 
 
