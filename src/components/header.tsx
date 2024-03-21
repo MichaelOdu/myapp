@@ -38,8 +38,8 @@ function BasicExample() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/trigger-1">Button</Nav.Link>
-              <Nav.Link href="trigger-2">Form</Nav.Link>
+              <Nav.Link href="/trigger-3">Button</Nav.Link>
+              <Nav.Link href="/trigger-4">Form</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
