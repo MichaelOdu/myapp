@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Col, Container, Form, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 
 const Component = () => {
 
@@ -12,8 +12,6 @@ const Component = () => {
                             <Button variant="secondary" onClick={() => console.log("Click....Technically an email should have been sent")}>Generate Email</Button>
                         </Col>
                     </Row>
-
-
             </Container>
         </>
 
